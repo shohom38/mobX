@@ -2,7 +2,7 @@
 import { useObserver } from "mobx-react"; //observable state 사용하기 위한 것
 import indexStore from "./modules/indexStore"; //observable state 보관함
 
-function App() {
+const App = () => {
   const { numberStore } = indexStore();
 
   const onClickInc = () => {
